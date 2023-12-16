@@ -1,0 +1,302 @@
+
+
+*{
+    text-align: center;
+    
+
+}
+
+
+body{
+    background: rgb(34,47,117);
+background: linear-gradient(90deg, rgba(34,47,117,1) 23%, rgba(66,135,121,1) 72%, rgba(144,160,59,1) 100%);
+}
+#container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+#urna{
+    border: 2px solid white;
+    width: 800px;
+    border-radius: 4px;
+    ;
+
+}
+
+.botoesSup{
+
+width: 800px;
+height: 300px;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+background-color: rgb(180, 187, 220); 
+
+
+
+ 
+}
+
+.supConjunto{
+    width: 300px; 
+    background-color: white;
+    margin-right: 25px;
+ 
+
+}
+
+#miniTela{
+    
+    font-size: 8px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+
+
+}
+
+#quadro{
+    display: flex;
+    height: 270px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+
+}
+#telaVotacao{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+
+    
+
+}
+
+
+
+.fileira1{
+   
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    background-color: rgb(180, 187, 220);  
+    
+}
+
+
+
+.fileira2{
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(180, 187, 220); 
+    cursor: pointer;
+
+}
+
+.fileira3{
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(180, 187, 220);  
+    cursor: pointer;
+
+    
+}
+
+
+.fileira4{
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(180, 187, 220); 
+    cursor: pointer;
+}
+
+
+.botoesInf{
+    display: flex;
+    width: 800px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: rgb(180, 187, 220); 
+    height: 50px;
+    width: 781px;
+    padding-right: 19px;
+    
+
+}
+.infConjunto{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+/* botoes inferiores*/ 
+
+#branco{
+    border-radius: 5px;
+    color: black; 
+    background-color: white;
+    width: 56px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    height: 20px;
+    cursor: pointer;
+
+
+}
+
+
+#corrige{
+    border-radius: 5px;
+    color: black; 
+    background-color: rgb(211, 100, 0); 
+    width: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+#confirma{
+    border-radius: 5px;
+    color: black; 
+    background-color: rgb(46, 158, 1); 
+    height: 30px; 
+    width: 68px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+/* estilo botoes numericos */ 
+
+button{
+    color: white;
+    background-color: black;
+    width: 40px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+
+
+    
+}
+
+
+h1{
+    color: black; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10px;
+
+}
+
+p{
+    color: white; 
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+
+
+#rfButton{
+    width: 40px; 
+    height: 40px;
+    margin-right: 1000px;
+    cursor : pointer;
+    background-color: green;
+    border-radius: 100%;
+    font-size: 25px;
+    
+}
+
+#rfButton:active {
+  background-color:rgb(8, 60, 8);
+  box-shadow: 0 2px black; 
+  transform: translateY(2px);
+}
+
+
+p{
+    color: white;
+    
+}
+
+#miniCont{
+    border: 1px solid black; 
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: blink 1.5s;
+    animation-iteration-count: 3;
+    margin-left: 20px
+
+    
+}
+@keyframes blink { 50% { border-color: white ; }  }
+
+
+
+
+#numero{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+  
+}
+
+#contImg{
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jusSb{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+
+#jus{
+    font-size: 15px;
+    
+}
+

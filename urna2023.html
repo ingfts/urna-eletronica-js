@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urna 2023</title>
+    <link rel="stylesheet" href="estiloUrna.css">
+</head>
+
+
+<header> 
+
+    <button id = "rfButton" onclick="refresh()"> ↻
+       </button>
+
+     </header>
+     
+<body>
+
+        <div id = "container"> 
+            <div id = "urna">
+                
+                <div class = "botoesSup"> 
+
+                    <div id = "quadro">
+                        <div id = "telaVotacao">
+                            
+                                <h1> PRESIDENTE</h1>
+                                <div id = "miniCont">
+                                    <p id = "numero"></p>
+                                    </div>
+
+                                    
+
+                                    <p id = "contImg"><img src = "https://www.oncoensino.org/wp-content/uploads/2023/10/default_user_icon-center-bottom-100x100.jpg"/></p>
+                                </div>
+                            </div>
+                    
+                        <div class = "supConjunto">
+                            <img id = "jusSb" src = "https://www.justicaeleitoral.jus.br/imagens/imagens/brasao-da-republica/@@download/image/BrasaoRepFundoTransp100-100.gif"/>
+                            <h1 id = "jus"> JUSTICA ELEITORAL </h1>
+
+                            <div id = "miniTela"> 
+                                </div>
+                        
+
+                            <div class = "fileira1">
+                                <p><button class = "bts" type="button"onclick="adicionarP('1') " onclick="bloquearBts()">1</button></p>
+                                <p><button class = "bts" type="button"onclick="adicionarP('2')">2</button></p>
+                                <p><button type="button"onclick="adicionarP('3')">3</button></p>
+                                </div>
+                        
+                            <div class = "fileira2"> 
+                                <p><button class = "bts" type="button" onclick="adicionarP('4')">4</button></p>
+                                <p><button class = "bts" type="button" onclick="adicionarP('5')">5</button></p>
+                                <p><button class = "bts" type="button" onclick="adicionarP('6')">6</button></p>
+                                </div>
+
+                            <div class = "fileira3"> 
+                                <p><button class = "bts" type="button" onclick="adicionarP('7')">7</button></p>
+                                <p><button class = "bts" type="button" onclick="adicionarP('8')">8</button></p>
+                                <p><button class = "bts" type="button" onclick="adicionarP('9')">9</button></p>
+                                </div>
+                        
+                            <div class = "fileira4"> 
+                                <p><button class = "bts" type="button" onclick="adicionarP('0')">0</button></p>
+                                </div>
+                                    </div>
+                                        </div>
+
+                            <div class = "botoesInf"> 
+
+                                <div class = "infConjunto">
+                                    <p><button type="button" id = "branco" onclick="votarBranco()">BRANCO</button></p>
+                                    <p><button type="button" id = "corrige" onclick="corrigir()">CORRIGE</button></p>
+                                    <p><button type="button" id = "confirma" onclick="confirmar()">CONFIRMA</button></p>
+                                    </div>
+                                        </div>
+                                            </div>
+                                                                    
+
+    
+</body>
+
+<script src = "urna.js"></script>
+
+
+</html>
+
+
